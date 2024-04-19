@@ -13,6 +13,7 @@ export default function Header(){
     search.classList.add("search");
 
     const input = document.createElement("input");
+    input.id = "location";
     input.placeholder = "City/Country";
 
     const p = document.createElement("button");
